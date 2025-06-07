@@ -77,11 +77,6 @@ img {
     margin: 10% auto 5%;
 }
 
-/* .front-text-container {
-    text-align: left;
-    width: 50vh;
-    height: 50vh;
-    } */
 .front-text-container {
     text-align: left;
     width: auto;
@@ -89,8 +84,12 @@ img {
     padding: 0;
     background: none;
     border: none;
-    }
-    
+    flex: 0.7; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    border-radius: 10%;
+    } 
 
     img {
     display:flex; /* Make the image a block element */
@@ -126,6 +125,21 @@ img {
     align-items: center;
     height: 100vh; /* Adjust to desired height */
 }
-  
-  
+
+/*==================================
+
+         FOR ABOUT PHOTO
+
+==================================*/
+.icon-links {
+    margin-top: 10px; 
+    display: flex; 
+    gap: 20px;
+}
+
+.profile-img {
+    width: 100%; 
+    max-width: 300px; 
+    border-radius: 10%;
+}
   
