@@ -77,12 +77,20 @@ img {
     margin: 10% auto 5%;
 }
 
-.front-text-container {
-    text-align: left; /* Center the contents horizontally */
+/* .front-text-container {
+    text-align: left;
     width: 50vh;
-    /* max-width: 800px; Adjust the maximum width as needed */
     height: 50vh;
+    } */
+.front-text-container {
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 0;
+    background: none;
+    border: none;
     }
+    
 
     img {
     display:flex; /* Make the image a block element */
