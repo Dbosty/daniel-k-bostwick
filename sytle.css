@@ -10,6 +10,7 @@ body {
     background-position: center; /* Center the background image */
     background-attachment: fixed; 
     text-align: center;
+    padding-top: 10vh;
 }
   
 .larger-text {
@@ -32,7 +33,6 @@ body {
     align-items: center; /* Center the items vertically */
     height: 10vh; /* Make the navbar cover the full viewport height */
     background-color: #333;
-    margin-top: 12vh;
     border: 2px solid red;
 }
   
