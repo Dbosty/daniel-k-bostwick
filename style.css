@@ -111,7 +111,8 @@ img {
     /* align-items: center; */
     align-items: flex-start;
     gap: 5%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    max-width: 60vw;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
