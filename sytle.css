@@ -16,7 +16,7 @@ body {
 .larger-text {
     font-size: 2.5em; /* Adjust the font size as needed */
 }
-  
+
 /*==================================
 
             FOR TOPNAV
@@ -33,7 +33,6 @@ body {
     align-items: center; /* Center the items vertically */
     height: 10vh; /* Make the navbar cover the full viewport height */
     background-color: #333;
-    border: 2px solid red;
 }
   
 /* Container for links */
