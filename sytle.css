@@ -77,6 +77,15 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .right-column a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  .right-column a:hover {
+    text-decoration: underline;
+  }
   
   .profile-img {
     width: 100%;
