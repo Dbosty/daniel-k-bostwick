@@ -139,6 +139,12 @@ img {
     height: 100vh; /* Adjust to desired height */
 }
 
+.paragraph {
+    font-size: 1.25em; /* or try 1.5em, 18px, etc. */
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+  }
+
 /*==================================
 
          FOR ABOUT PHOTO
