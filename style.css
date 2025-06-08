@@ -16,10 +16,13 @@ body {
   
 .larger-text {
     font-size: 2.5em; /* Adjust the font size as needed */
+    /* text-align: left; */
+    /* margin-bottom: 0.5em; */
 }
 
 .title-text {
     font-size: 4em;
+    /* text-align: left; */
 }
 
 /*==================================
@@ -74,6 +77,12 @@ body {
     object-fit: cover;
 }
 
+.small-video {
+    width: 450px;
+    height: auto;
+    border-radius: 8px; /* optional */
+  }
+
 .image-container {
     text-align: center; /* Center the contents horizontally */
     width: 30%;
@@ -91,19 +100,19 @@ img {
     width: auto;
     height: auto;
     padding: 0;
-    background: none;
-    border: none;
     flex: 0.7; 
     display: flex; 
     flex-direction: column; 
     align-items: center;
-    border-radius: 10%;
     } 
 
     img {
-    display:flex; /* Make the image a block element */
+    /* display:flex; Make the image a block element */
     /* margin: 50px auto 10px; Center the image and add margin */
     margin: 1% auto 1%;
+    width: 150px; /* or smaller */
+    height: auto;
+    display: block;
 }
 
 
@@ -111,13 +120,14 @@ img {
     display: flex;
     flex-direction: row;
     padding: 0 7.8%;
-    /* align-items: center; */
-    align-items: flex-start;
-    gap: 5%;
-    max-width: 50vw;
-    justify-content: center;
+    align-items: center;
+    gap: 0%;
+    max-width: 55vw;
+    /* justify-content: center; */
+    justify-content: flex-start;
     text-align: center;
     margin: 0 auto;
+    /* margin-bottom: 5rem; */
 }
     h3 {
         display: inline-block; /* Make the text an inline-block element */
@@ -140,14 +150,18 @@ img {
 }
 
 .paragraph {
-    font-size: 1.25em; /* or try 1.5em, 18px, etc. */
-    line-height: 1.6;
-    margin-bottom: 1.5em;
-  }
+    font-size: 1.2em; /* or try 1.5em, 18px, etc. */
+    line-height: 1.2;
+    margin-bottom: 1em;
+    }
+    a {
+        color: dodgerblue;
+        text-decoration: none;
+}
 
 /*==================================
 
-         FOR ABOUT PHOTO
+              IMAGES
 
 ==================================*/
 .icon-links {
@@ -161,4 +175,29 @@ img {
     max-width: 300px; 
     border-radius: 10%;
 }
+
+.education-container {
+    flex: 0 0 auto; /* prevent image from stretching */
+    margin-right: 40px; /* spacing between image and text */
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .education-container img {
+    width: 150px; /* or smaller */
+    height: auto;
+    display: flex;
+  }
+  
+.bottom-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;  /* Dark background */
+    color: white;            /* White text */
+    text-align: center;
+    padding: 10px 0;         /* Vertical padding */
+    font-size: 0.9em;        /* Smaller text */
+    z-index: 1000;           /* Ensure it's on top */
+  }
   

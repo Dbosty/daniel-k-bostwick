@@ -8,46 +8,48 @@
 </head>
 <div class="topnav">
     <div class="links-container">
-      <h1><a href="index.html">Homepage</a></h1>
+      <h1><a href="index.html">Home</a></h1>
     </div>
     <div class="links-container">
         <h3><a href="#about">About</a></h3>
+        <h3><a href="#recent">Recent</a></h3>
         <h3><a href="#research">Research</a></h3> 
         <h3><a href="#education">Education</a></h3> 
-        <h3><a href="#experience">Experience</a></h3> 
         <h3><a href="#teaching">Teaching</a></h3> 
-        <h3><a href="#awards">Awards</a></h3>
     </div>
 </div>
 
 <body>
-    <br><br><br><br>
-    <!-- <p>Daniel Bostwick PhD @ UC Berkeley</p> -->
+    <br><br><br><br><br><br><br><br>
     <br>
     <h1 class="title-text">Daniel Bostwick</h1>
-    <!-- <br> -->
+    <br><br>
 </body>
 
 <body>
-  <section id="about"> <!-- style="margin-top: 12vh;"> -->
-
+  <section id="about"> 
+    <div class="text-container">
+       <h1 class="larger-text">About</h1> 
+    </div>
     <div class="text-container">
       <div class="front-text-container">
-        <h1 class="larger-text">About</h1>
+        
         <p class="paragraph">
           I'm an incoming PhD student in the Electrical Engineering and Computer Science department at UC Berkeley. 
           I study controls, intelligent systems, and robotics (CIR) and am advised by
           <a href="https://people.eecs.berkeley.edu/~sastry/" target="_blank">Professor Shankar Sastry</a>.
-        </p>
-        <p class="paragraph">
+        <br><br>
           My research interests include modeling innovative drone dynamics, multi-agent games, and optimization. I'm currently working 
           on designing and building an 8 DOF over-actuated drone to compete against a regular drone in aggressive maneuvering at high 
           accelerations. I'm also part of a team designing and testing an RL framework for multi-agent pursuit-evasion games.
-        </p>
-        <p class="paragraph">
+        <br><br>
           Fun fact about me: I served for four years in the US Army as a helicopter mechanic working on the rotor, drive, and 
           engine systems primarily for the CH-47F Chinook and the UH-60L / UH-60M Blackhawks.
-        </p>
+        <br><br>
+        Please see my resume: 
+        <a href="assets/Official Resume of Daniel Bostwick.pdf" target="_blank">View</a> /
+        <a href="assets/Official Resume of Daniel Bostwick.pdf" download>Download</a>
+
       </div>
 
       <div class="front-text-container">
@@ -71,25 +73,207 @@
   </section>
 </body>
 <body>
-    <section id="research" style="margin-top: 12vh;"></section>
-    <h1 class="larger-text">Research</h1>
+    <section id="recent" style="margin-top: 12vh;"></section>
+    <div class="text-container">
+          <h1 class="larger-text">Recent</h1>  
+    </div>
+    <div class="text-container">
+        <div class="education-container">
+            <p class="paragraph">
+                [08/2025, UCB] Start PhD! <br>
+                [06/2025, RSS] Paper accepted to RSS Multi-Robot Systems Workshop at USC <br>
+                [06/2025, IEEE] Paper under review at the IEEE Global Humanitarian Technology Conference <br>
+                [02/2025, UCB] Accepted PhD to UC Berkeley!! <br>
+                [12/2024, UCB] Graduated masters from UC Berkeley! <br>
+                [12/2024, UCB] Presented capstone project: <i>Neural Machine Translation: Akkadian Cuneiform to English</i>
+            </p>
+        </div>    
+    </div>  
+</body>
+<body>
+    <section id="research" style="margin-top: 12vh;">
+        <div class="text-container">
+            <h1 class="larger-text">Research</h1>
+        </div>
+        <div class="text-container">
+            <div class="front-text-container">
+                <video class="small-video" autoplay loop muted playsinline>
+                    <source src="media/l0p_vs_l0e_final.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="front-text-container">
+                <p class="paragraph">
+                <b>Evader-Agnostic Team-Based Pursuit Strategies in Partially-Observable Environments</b> 
+                <br>
+                <a href="https://www.linkedin.com/in/addikala" target="_blank">Addison Kalanther</a>, 
+                <a href="https://dbosty.github.io/daniel-k-bostwick/" target="_blank"><b>Daniel Bostwick</b></a>,
+                <a href="https://sites.google.com/berkeley.edu/chinmay-maheshwari/home?authuser=0" target="_blank">Chinmay Maheshwari</a>,
+                <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/sastry.html" target="_blank">Shankar Sastry</a> 
+                <br>
+                <i>RSS MRS Workshop 2025</i>
+                <br><br>
+                <a href="https://sastry-group.github.io/PEG/" target="_blank">website</a> | code | arxiv
+                <br><br>
+                A two-phase neuro-symbolic algorithm for a team of UAV pursuers operating in a partially observable, 
+                pursuit-evasion game scenario. By first training adversarial policies offline using deep reinforcement learning and 
+                then selecting responses online via a bounded rationality framework, this method improves performance against 
+                unpredictable evaders.
+                </p>
+            </div>
+        </div>
+        <br><br>
+        <div class="text-container">
+            <div class="front-text-container">
+                <video class="small-video" autoplay loop muted playsinline height="300px">
+                    <source src="media/hadr-vid.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="front-text-container">
+                <p class="paragraph">
+                <b>Coordinated Autonomous Drones for Human-Centered Fire Evacuation in Partially Observable Urban Environments</b> 
+                <br>
+                <a href="https://www.linkedin.com/in/maria-gabriela-mendoza/" target="_blank">Gaby Mendoza</a>,
+                <a href="https://www.linkedin.com/in/addikala" target="_blank">Addison Kalanther</a>, 
+                <a href="https://dbosty.github.io/daniel-k-bostwick/" target="_blank"><b>Daniel Bostwick</b></a>,
+                <a href="https://www.linkedin.com/in/emma-stephan/" target="_blank">Emma Stephan</a>,
+                <a href="https://sites.google.com/berkeley.edu/chinmay-maheshwari/home?authuser=0" target="_blank">Chinmay Maheshwari</a>,
+                <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/sastry.html" target="_blank">Shankar Sastry</a> 
+                <br>
+                <i>Under Review, IEEE GHTC 2025</i>
+                <br><br>
+                <a href="https://sastry-group.github.io/MultiRobot-HADR/" target="_blank">website</a> | code | arxiv
+                <br><br>
+                A multi-agent coordination framework in which two autonomous UAVs assist human evacuees in real-time during 
+                fire evacuations by locating, intercepting, and guiding them to safety under uncertainty. Using a POMDP formulation 
+                with panic-informed human behavior and recurrent PPO policies, the UAV team demonstrates significantly improved 
+                evacuation efficiency in complex, partially observable environments.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
 </body>
 <body>
     <section id="education" style="margin-top: 12vh;"></section>
-    <h1 class="larger-text">Education</h1>
-</body>
-<body>
-    <section id="experience" style="margin-top: 12vh;"></section>
-    <h1 class="larger-text">Experience</h1>
+    <div class="text-container">
+           <h1 class="larger-text">Education</h1> 
+    </div>
+    <div class="text-container">
+        <div class="education-container">
+            <img src="icons/eecs.png" alt="EECS" />
+        </div>
+        <div class="education-container">
+            <p class="paragraph">
+                <b>University of California, Berkeley</b>
+                <br>
+                Electrical Engineering and Computer Science
+                <br>
+                PhD Controls, Intelligent Systems, and Robotics (CIR)
+                <br>
+                2025 - Present
+                <br><br>
+                Prof: <a href="https://people.eecs.berkeley.edu/~sastry/" target="_blank">Shankar Sastry</a>
+            </p>
+        </div>
+    </div>
+    <div class="text-container">
+        <div class="education-container">
+            <img src="icons/school-info.png" alt="EECS" />
+        </div>
+        <div class="education-container">
+            <p class="paragraph">
+                <b>University of California, Berkeley</b>
+                <br>
+                School of Information
+                <br>
+                Master of Information and Data Science
+                <br>
+                2023 - 2024
+                <br><br>
+            </p>
+        </div>
+    </div>
+    <div class="text-container">
+        <div class="education-container">
+            <img src="icons/berk.png" alt="EECS" />
+        </div>
+        <div class="education-container">
+            <p class="paragraph">
+                <b>University of California, Berkeley</b>
+                <br>
+                School of Letters and Science
+                <br>
+                Data Science empshasis in Robotics
+                <br>
+                2021 - 2023
+            </p>
+        </div>
+    </div>
 </body>
 <body>
     <section id="teaching" style="margin-top: 12vh;"></section>
-    <h1 class="larger-text">Teaching</h1>
+    <div class="text-container">
+           <h1 class="larger-text">Teaching</h1> 
+    </div>
+    <div class="text-container">
+        <div class="education-container">
+            <img src="icons/eecs.png" alt="EECS" />
+        </div>
+        <div class="education-container">
+            <p class="paragraph">
+                <b>EECS 106A Introduction to Robotics</b>
+                <br>
+                <i>Head Content TA</i>
+                <br>
+                Fall 2025
+                <br>
+                <i>Reader / Tutor</i>
+                <br>
+                Fall 2023, Fall 2024
+                <br><br>
+                <b>EECS 106B Robotic Manipulation and Interaction</b>
+                <br>
+                <i>Reader / Tutor</i>
+                <br>
+                Spring 2024, Spring 2025
+            </p>
+        </div>
+    </div>
 </body>
+<br><br><br><br>
 <body>
-    <section id="awards" style="margin-top: 12vh;"></section>
-    <h1 class="larger-text">Awards</h1>
+    <div class="text-container">
+        <div class="education-container">
+            <p class="paragraph">
+            <b>Daniel Bostwick</b><br>
+            PhD @ UC Berkeley <br>
+            Cory Hall 337<br>
+            Sutardja Dai Hall 7th floor<br>
+            <span style="color: white;">hello, world!</span>
+            </p>
+        </div>
+    <div class="text-container">
+         <div class="education-container">
+            <p class="paragraph">
+                <b>Socials</b><br>
+                <a href="https://scholar.google.com/citations?user=caoAeJ4AAAAJ" target="_blank"> Google Scholar</a><br>
+                <a href="https://github.com/Dbosty" target="_blank">GitHub</a><br>
+                <a href="https://www.linkedin.com/in/danielbostwick/" target="_blank">LinkedIn</a><br>
+                <a href="mailto:daniel.k.bostwick@berkeley.edu">Email</a>
+            </p>
+        </div>
+    </div> 
+    </div>
 </body>
-
+<br><br><br><br><br><br><br><br>
+<body>
+    I want to thank God and my parents for all of their love and support.
+</body>
+<br><br>
+<div class="bottom-banner">
+    Daniel Bostwick @ UC Berkeley
+  </div>
+  
 </html>
 
