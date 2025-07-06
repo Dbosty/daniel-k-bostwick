@@ -1,0 +1,215 @@
+html {
+    scroll-padding-top: 10vh;
+    scroll-behavior: smooth;
+}
+  
+/*==================================
+
+            FOR BODY
+
+==================================*/
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* display: flex; */
+    /* padding-top: 10vh; */
+}
+  
+.larger-text {
+    /* width: 100%; */
+    font-size: 2.5em; /* Adjust the font size as needed */
+    /* text-align: left; */
+    /* margin-bottom: 0.5em; */
+}
+
+.title-text {
+    /* width: 100%; */
+    font-size: 4em;
+    /* text-align: left; */
+}
+
+/*==================================
+
+            FOR TOPNAV
+
+==================================*/
+/* The navbar container */
+.topnav {
+    display: flex; /* Use flexbox layout */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-between; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    height: 10vh; /* Make the navbar cover the full viewport height */
+    background-color: #333;
+}
+  
+/* Container for links */
+.links-container {
+    display: flex; /* Use flexbox layout */
+    padding: 0 5%; /* Changes the distance between links */
+}
+  
+/* Navbar links */
+.topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  
+/*==================================
+
+            FOR PNGS
+
+==================================*/
+/* Style to make the image smaller */
+.small-image {
+    width: 400px; /* Set the desired width */
+    height: 400px; /* Maintain aspect ratio */
+    object-fit: cover;
+}
+
+.small-video {
+    width: 450px;
+    height: auto;
+    border-radius: 8px; /* optional */
+  }
+
+.image-container {
+    text-align: center; /* Center the contents horizontally */
+    width: 30%;
+    /* max-width: 800px; Adjust the maximum width as needed */
+    height: 100%;
+}
+img {
+    display: inline; /* Make the image a block element */
+    /* margin: 50px auto 10px; Center the image and add margin */
+    margin: 10% auto 5%;
+}
+
+.front-text-container {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0;
+    flex: 0.7; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    } 
+
+    img {
+    /* display:flex; Make the image a block element */
+    /* margin: 50px auto 10px; Center the image and add margin */
+    margin: 1% auto 1%;
+    width: 150px; /* or smaller */
+    height: auto;
+    display: block;
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 7.8%;
+    align-items: center;
+    gap: 0%;
+    /* max-width: 55vw; */
+    min-width: 55vw;
+    max-width: 1200px;
+    /* justify-content: center; */
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-bottom: 5rem; */
+}
+    h3 {
+        display: inline-block; /* Make the text an inline-block element */
+        vertical-align: center; /* Align elements vertically */
+        /* margin-right: 10px; Add some spacing between elements */
+        margin-right: 5%;
+        margin: 0%;
+    }
+    p {
+        display: inline-block; /* Make the text an inline-block element */
+        vertical-align: top; /* Align elements vertically */
+        margin-right: 0%; /* Add some spacing between elements */
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to desired height */
+}
+
+.paragraph {
+    font-size: 1.2em; /* or try 1.5em, 18px, etc. */
+    line-height: 1.2;
+    margin-bottom: 1em;
+    }
+    a {
+        color: dodgerblue;
+        text-decoration: none;
+}
+
+/*==================================
+
+              IMAGES
+
+==================================*/
+.icon-links {
+    margin-top: 10px; 
+    display: flex; 
+    gap: 20px;
+}
+
+.profile-img {
+    width: 100%; 
+    max-width: 300px; 
+    border-radius: 10%;
+}
+
+.education-container {
+    flex: 0 0 auto; /* prevent image from stretching */
+    margin-right: 40px; /* spacing between image and text */
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .education-container img {
+    width: 150px; /* or smaller */
+    height: auto;
+    display: flex;
+  }
+  
+.bottom-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;  /* Dark background */
+    color: white;            /* White text */
+    text-align: center;
+    padding: 10px 0;         /* Vertical padding */
+    font-size: 0.9em;        /* Smaller text */
+    z-index: 1000;           /* Ensure it's on top */
+  }
+  
