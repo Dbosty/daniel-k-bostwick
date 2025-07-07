@@ -280,6 +280,26 @@
 <div class="bottom-banner">
     Daniel Bostwick @ UC Berkeley
   </div>
+
+
+  <script>
+    let lastScrollTop = 0;
+    const navbar = document.querySelector('.topnav');
+
+    window.addEventListener('scroll', function () {
+      let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop) {
+        // Scrolling down
+        navbar.classList.add('nav-hidden');
+      } else {
+        // Scrolling up
+        navbar.classList.remove('nav-hidden');
+      }
+
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    });
+  </script>
 </body>  
 </html>
 
